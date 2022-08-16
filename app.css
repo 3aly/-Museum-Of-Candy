@@ -24,6 +24,16 @@ body{
 }
 
 
+.active{
+
+    color:white;
+    background-color: #d53e4b;
+    border-radius: 5px;
+    padding: 2px;
+    
+    transition: all 0.5s;
+}
+
 
 #navmain .navbar-brand
 {
@@ -45,13 +55,35 @@ body{
     font-size: 4rem;
     font-weight: 100;
 }
+
+h2{
+
+    color:white;
+    font-size: 2rem;
+    font-weight: 100;
+}
+footer{
+    display: flex;
+    color:white;
+    font-size: 3rem;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 5px;
+    background-color: #dec0de;
+}
+footer span{
+
+    color: #ea1c2c;
+}
 @media (max-width: 1300px) {
     #headingGroup h1{
 
         font-size: 3rem;
     }
 }
-#middle{
+p{
 
     color:rgb(250, 162, 162);
     font-weight: 100;
